@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Reference Class</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="../index.html">Monzey Framework</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="../about.html">About</a></li>
+              <li><a href="../setup.html">Setup</a></li>
+              <li><a href="../examples.html">Examples</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Classes</li>
+              
+              <li><a href="comment.html">Comment</a></li>
+              <li><a href="event.html">Event</a></li>
+              <li><a href="file.html">File</a></li>
+              <li><a href="location.html">Location</a></li>
+              <li><a href="log.html">Log</a></li>
+              <li><a href="message.html">Message</a></li>
+              <li><a href="object.html">Object</a></li>
+              <li><a href="permission.html">Permission</a></li>
+              <li><a href="project.html">Project</a></li>
+              <li class="active"><a href="reference.html">Reference</a></li>
+              <li><a href="session.html">Session</a></li>
+              <li><a href="user.html">User</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span10">
+			<h1>Reference Class</h1>
+			<p>Class for referencing files in other files.</p>
+
+			<h2>Object</h2>
+			<p>Object array that contains the reference information.
+			<h4>Variables:</h4>
+			<ul>
+				<li>id</li>
+				<li>reference_type</li>
+				<li>description</li>
+				<li>reference_object_type</li>
+				<li>reference_object_id</li>
+				<li>reference_url</li>
+				<li>script_id</li>
+				<li>owner_id</li>
+				<li>creation_date</li>
+			</ul>
+
+	    	<h2>Public Methods</h2>
+	    	
+	    	<h3>create_reference()</h3>
+	    	<p>Function to create a reference on a file.</p>
+	    	<h4>Usage:</h4>
+	    	<p><code>Reference::create_reference($reference_type, $reference_object_type, $reference_object_id, $script_id);</code></p>
+	    	<h4>Returns:</h4>
+	    	<ul><li>Reference Object</li><li>Empty</li></ul>
+
+	    	<h3>find_references()</h3>
+	    	<p>Function to find references from a file.</p>
+	    	<h4>Usage:</h4>
+	    	<p><code>Reference::find_references($file_id);</code></p>
+	    	<h4>Returns:</h4>
+	    	<ul><li>Array of Reference Objects</li><li>Empty</li></ul>
+        
+      </div>
+      </div>
+      <hr>
+
+      <footer>
+        <p>CC Monzey Apps 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
