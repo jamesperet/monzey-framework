@@ -3,8 +3,12 @@ bin-debug/
 bin-release/
 
 .DS_Store
+docs/.DS_Store
+includes/.DS_Store
 
 # Project property files
 .settings/
 .project
+
+Monzey CMS Features
 
